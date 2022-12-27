@@ -23,6 +23,13 @@ REBASING TOKENS: [e.g. any, none, {token name}]
 ADMIN: [trusted, restricted, n/a]
 ```
 
+In case of restricted, by default Sherlock does not consider direct protocol rug pulls as a valid issue unless the protocol clearly describes in detail the conditions for these restrictions. 
+For contracts, owners, admins clearly distinguish the ones controlled by protocol vs user controlled. This helps watsons distinguish the risk factor. 
+Example: 
+* `ContractA.sol` is owned by the protocol. 
+* `admin` in `ContractB` is restricted to changing properties in `functionA` and should not be able to liquidate assets or affect user withdrawals in any way. 
+* `admin` in `ContractC` is user admin and is restricted to only `functionB`
+
 # Audit scope
 
 # About Ajna
