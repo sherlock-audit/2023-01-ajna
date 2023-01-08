@@ -60,6 +60,9 @@ Caveats:
 make all
 ```
 
+### Implementation notes
+Pool external calls carry the `nonReentrant` modifier to prevent invocation from `flashLoan` and `take` callbacks.
+
 ## Tests
 ### Forge tests
 - run tests without the gas load tests (good for checking validity)
@@ -73,10 +76,6 @@ make test-with-gas-report
 - run load tests with gas report, used for gas comparison of changes (takes longer to execute):
 ```bash
 make test-load
-```
-- generate code coverage report:
-```bash
-make coverage
 ```
 
 ### Brownie tests
@@ -103,6 +102,16 @@ or
 brownie compile --size
 ```
 
+## Code Coverage
+- generate basic code coverage report:
+```bash
+make coverage
+```
+- exclude tests from code coverage report:
+```
+apt-get install lcov
+bash ./check-code-coverage.sh
+```
 
 ## Slither Analyzer
 
