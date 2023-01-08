@@ -2,8 +2,12 @@
 
 pragma solidity 0.8.14;
 
-import { IPoolFactory } from './interfaces/IPoolFactory.sol';
+import { IPoolFactory } from '../interfaces/pool/IPoolFactory.sol';
 
+/**
+ *  @title  Pool Deployer base contract
+ *  @notice Base contract for Pool Deployer, contains logic used by both ERC20 and ERC721 Pool Factories.
+ */
 abstract contract PoolDeployer {
 
     uint256 public constant MIN_RATE = 0.01 * 1e18;

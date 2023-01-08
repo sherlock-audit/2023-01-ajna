@@ -8,19 +8,22 @@
 
 - [Twitter](https://mobile.twitter.com/ajnafi)
 - [Website](https://www.ajna.finance/)
+- [Business Logic recording]()
+- [Code walkthrough recording]()
+- [Whitepaper] (https://docsend.com/view/brw647iyuvwh9wj5)
+- [Ajna Technical Spec] ()
+- [ELI5] (https://docsend.com/view/dqf64s8gfi2p9aqh)
 
 # On-chain context
 
-TO FILL IN BY PROTOCOL
-
 ```
-DEPLOYMENT: [e.g. mainnet, arbitrum, optimism, ..]
-ERC20: [e.g. any, none, USDC, USDC and USDT]
-ERC721: [e.g. any, none, UNI-V3]
-ERC777: [e.g. any, none, {token name}]
-FEE-ON-TRANSFER: [e.g. any, none, {token name}]
-REBASING TOKENS: [e.g. any, none, {token name}]
-ADMIN: [trusted, restricted, n/a]
+DEPLOYMENT: Ethereum mainnet, Arbitrum, Optimism, Binance Smart Chain, Polygon, Fantom, Tron, Avalanche
+ERC20:  any - ERC20's are used in fungible, collection and subset pool types
+ERC721: any - ERC721's are used in collection and subset pool types
+ERC777: none
+FEE-ON-TRANSFER: none
+REBASING TOKENS: none
+ADMIN: N/A
 ```
 
 In case of restricted, by default Sherlock does not consider direct protocol rug pulls as a valid issue unless the protocol clearly describes in detail the conditions for these restrictions. 
@@ -33,4 +36,12 @@ Example:
 # Audit scope
 
 # About Ajna
+The Ajna protocol is a non-custodial, peer-to-peer, permissionless lending, borrowing and trading system that requires no governance or external price feeds to function. The protocol consists of pools: pairings of quote tokens provided by lenders and collateral tokens provided by borrowers. Ajna is capable of accepting fungible tokens as quote tokens and both fungible and non-fungible tokens as collateral tokens.
+
+# Known attacks or issues
+## Defined Upper and lower boundaries of deposit size
+- When depositing large amounts at high prices (low indexes), balances can overflow a uint256 causing a revert. For buckets with quote token deposited, interest accumulation makes this problematic.
+- When depositing small amounts at low prices (high indexes), there is insufficient precision to for LP accounting to function as intended.
+For collateral deposited into a bucket, the bucket price becomes a factor in the equation to determine bounds.
+Token scale is another factor in this equation.
 
