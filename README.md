@@ -8,11 +8,11 @@
 
 - [Twitter](https://mobile.twitter.com/ajnafi)
 - [Website](https://www.ajna.finance/)
-- [Business Logic recording]()
-- [Code walkthrough recording]()
-- [Whitepaper] (https://docsend.com/view/brw647iyuvwh9wj5)
+- [Business Logic recording] ()
+- [Code walkthrough recording] ()
+- [Whitepaper](https://docsend.com/view/brw647iyuvwh9wj5)
 - [Ajna Technical Spec] ()
-- [ELI5] (https://docsend.com/view/dqf64s8gfi2p9aqh)
+- [ELI5](https://docsend.com/view/dqf64s8gfi2p9aqh)
 
 # On-chain context
 
