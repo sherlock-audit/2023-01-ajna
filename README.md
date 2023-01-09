@@ -8,7 +8,7 @@
 
 - [Twitter](https://mobile.twitter.com/ajnafi)
 - [Website](https://www.ajna.finance/)
-- [Business Logic recording] (https://www.youtube.com/watch?v=LoknmCG-0kw)
+- [Business Logic recording](https://www.youtube.com/watch?v=LoknmCG-0kw)
 - [Code walkthrough recording] ()
 - [Whitepaper](https://docsend.com/view/brw647iyuvwh9wj5)
 - [Ajna Technical Spec] ()
