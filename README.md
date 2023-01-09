@@ -40,7 +40,4 @@ The Ajna protocol is a non-custodial, peer-to-peer, permissionless lending, borr
 # Known attacks or issues
 ## Defined Upper and lower boundaries of deposit size
 - When depositing large amounts at high prices (low indexes), balances can overflow a uint256 causing a revert. For buckets with quote token deposited, interest accumulation makes this problematic.
-- When depositing small amounts at low prices (high indexes), there is insufficient precision to for LP accounting to function as intended.
-For collateral deposited into a bucket, the bucket price becomes a factor in the equation to determine bounds.
-Token scale is another factor in this equation.
 
