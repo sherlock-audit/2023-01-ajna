@@ -34,6 +34,8 @@ Example:
 * `admin` in `ContractC` is user admin and is restricted to only `functionB`
 
 # Audit scope
+* ./contracts/src files and any files they import
+* ./ecosystem-coordination/src files and any files they import
 
 # About Ajna
 The Ajna protocol is a non-custodial, peer-to-peer, permissionless lending, borrowing and trading system that requires no governance or external price feeds to function. The protocol consists of pools: pairings of quote tokens provided by lenders and collateral tokens provided by borrowers. Ajna is capable of accepting fungible tokens as quote tokens and both fungible and non-fungible tokens as collateral tokens.
