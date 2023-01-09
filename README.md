@@ -9,9 +9,8 @@
 - [Twitter](https://mobile.twitter.com/ajnafi)
 - [Website](https://www.ajna.finance/)
 - [Business Logic recording](https://www.youtube.com/watch?v=LoknmCG-0kw)
-- [Code walkthrough recording] ()
 - [Whitepaper](https://docsend.com/view/brw647iyuvwh9wj5)
-- [Ajna Technical Spec] ()
+- [Ajna Technical Spec](https://docsend.com/view/ai74yqgzjp3yydyt)
 - [ELI5](https://docsend.com/view/dqf64s8gfi2p9aqh)
 
 # On-chain context
