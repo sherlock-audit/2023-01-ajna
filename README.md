@@ -12,6 +12,7 @@
 - [Whitepaper](https://docsend.com/view/brw647iyuvwh9wj5)
 - [Ajna Technical Spec](https://docsend.com/view/ai74yqgzjp3yydyt)
 - [ELI5](https://docsend.com/view/dqf64s8gfi2p9aqh)
+- [Technical Diagrams](https://docsend.com/view/api44fg49ts2y3ae)
 
 # On-chain context
 
