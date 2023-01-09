@@ -1,0 +1,14 @@
+{
+  "title": "Ajna",
+  "starts_at": "2023-01-09 15:00",
+  "ends_at": "2023-01-30 15:00",
+  "prize_pool": "75000",
+  "lead_senior_auditor_fixed_pay": "30000",
+  "short_description": "Ajna is a peer to peer, oracleless, permissionless lending protocol with no governance, accepting both fungible and non fungible tokens as collateral.",
+  "sponsor": "Ajna",
+  "github_team": "ajna",
+  "logo_url": "https://pbs.twimg.com/profile_images/1539756483562422274/PH2omc6j_400x400.jpg",
+  "private": false,
+  "lead_senior_auditor_handle": "leastwood",
+  "team_handles": ["prateek105", "mikehathaway", "ith-harvey", "mattcushman", "grandizzy", "ednoepel"]
+}
